@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form HTML</title>
+</head>
+<body>
+    <h1>Form HTML</h1>
+
+    <form>
+        <!--Nama menggunakan input type text karena untuk menulis kalimat-->>
+        Name:
+        <input type="text" id="name" name="name"><br><br>
+
+        <!--Gender menggunakan input type radio karena untuk memilih salah satu dari beberapa pilihan-->
+        Gender:
+        <input type="radio" id="male" name="gender" value="male">Man
+        <input type="radio" id="female" name="gender" value="female">Woman<br><br>
+
+        <!--Addres menggunakan input type text karena untuk menulis kalimat-->>
+        Address:
+        <input type="text" id="address" name="address"><br><br>
+
+        <!--Country menggunakan Select karena untuk memilih dari berbagi opsi-->>
+        Country:
+        <select id="country" name="country">
+            <option value="indonesia">Indonesia</option>
+            <option value="Malaysia">Malaysia</option>
+            <option value="Singapura">Singapura</option>
+        </select><br><br>
+
+        <!--Email menggunakan input type email karena diisi email-->>
+        Email:
+        <input type="email" id="email" name="email"><br><br>
+
+        <!--Photo menggunakan input type file karena untuk upload softfile photo-->>
+        Photo:
+        <input type="file" id="photo" name="photo"><br><br>
+
+        <!--Comment menggunakan textarea agar bisa menulis komentar-->>
+        Comment:
+        <textarea id="comment" name="comment" rows="5" cols="40"></textarea><br><br>
+
+        <!--type submit untuk menyetujui data diatas disimpan di data-->
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
