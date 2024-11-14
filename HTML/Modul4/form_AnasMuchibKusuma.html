@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pendaftaran Mahasiswa Baru</title>
+</head>
+<body>
+    <h1>Politaknik Balekambang</h1><br>
+    <h2>Pendataran Mahasiswa Baru</h2>
+    
+    <form>
+        Nama Lengkap : 
+        <input type="text" name="nama"><br><br>
+        
+        Jenis Kelamin : 
+        <input type="radio" name="jk" value="laki-laki">laki-laki
+        <input type="radio" name="jk" value="perempuan">Perempuan <br><br>
+
+        Agama :
+        <select name="agama" id="agama">
+            <option value="islam">Islam</option>
+            <option value="kristen">Kristen</option>
+            <option value="katolik">Katolik</option>
+            <option value="hindu">Hindu</option>
+            <option value="budha">Budha</option>
+        </select><br><br>
+
+        Status : 
+        <select name="status" id="status">
+            <option value="menikah">Menikah</option>
+            <option value="belummenikah">Belum Menikah</option>
+        </select><br><br>
+
+        NIK :
+        <input type="text" name="nik"><br><br>
+
+        Tempat Lahir :
+        <input type="text" name="tmplahir"><br><br>
+
+        Tanggal Lahir :
+        <input type="date" name="tgllahir"><br><br>
+
+        Asal Sekolah : 
+        <input type="text" name="asalsekolah"><br><br>
+
+        No. HP : 
+        <input type="text" name="nohp"><br><br>
+
+        Photo : 
+        <input type="file" name="photo"><br><br>
+
+        Alamat :<br>
+        <textarea id="comment" name="comment" rows="5" cols="40"></textarea><br><br>
+
+        <input type="submit" value="proses">
+    </form>
+</body>
+</html>
