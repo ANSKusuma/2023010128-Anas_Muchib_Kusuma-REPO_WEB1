@@ -1,0 +1,178 @@
+body {
+    font-family: Arial, sans-serif;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #961414; /* Warna hijau untuk header */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav {
+    background-color: #333; /* Warna gelap untuk menu navigasi */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between; /* Memisahkan item menu */
+}
+
+nav ul li {
+    display: inline; /* Menampilkan menu secara horizontal */
+    margin-right: 15px;
+}
+
+nav ul li.right {
+    margin-left: auto; /* Menggeser item ke kanan */
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+nav ul li a:hover {
+    background-color: #575757; /* Warna saat hover */
+    border-radius: 5px; /* Sudut melengkung saat hover */
+}
+
+main {
+    padding: 20px; /* padding untuk konten */
+    background-color: white; /* Warna latar belakang konten */
+    margin: 20px; /* Margin di sekitar konten */
+    border-radius: 5px; /* Sudut melengkung untuk konten */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Bayangan halus */
+    flex-grow: 1; /* Memungkinkan main untuk mengisi ruang yang tersedia */
+}
+
+footer {
+    background-color: #961414; /* Warna hijau untuk footer */
+    color: white;
+    display: flex;
+    justify-content: space-between; /* Memisahkan elemen footer */
+    align-items: center; /* Vertikal center */
+    padding: 10px; /* Padding untuk footer */
+}
+
+img.anas{
+    width: 100%;
+	margin-bottom: 10px;
+}
+
+.kiri{
+	width: 20%;
+	float: left;
+}
+
+.kanan{
+	width: 70%;
+	padding:0px 20px;	
+	float: left;
+}
+
+.pendidikan{
+	clear: both; /* Menjaga agar pendidikan berada di bawah elemen yang di-float */
+    overflow: hidden; /* Untuk mengatasi masalah layout */
+}
+
+.m6-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.polibang-img {
+    width: 50px; /* Ukuran gambar */
+    height: auto; /* Mempertahankan rasio aspek */
+}
+
+.nim {
+    text-align: center; /* NIM di tengah */
+    flex-grow: 1; /* Menggunakan ruang yang tersedia */
+}
+
+.copyright {
+    text-align: right; /* Copyright di pojok kanan */
+}
+
+.team-logos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.team-m6 {
+    padding: 20px;
+    background-color: black; /* Warna latar belakang konten */
+    margin: 10px; /* Margin di sekitar konten */
+    border-radius: 5px; /* Sudut melengkung untuk konten */
+}
+
+.team-font {    
+    text-align: center;
+    color: white;
+    font-size: 16px; /* Ukuran font */
+}
+
+.team-logos a {
+    margin: 10px;
+}
+
+.team-logos img {
+    width: 100px; /* Ukuran logo */
+    height: auto; /* Mempertahankan rasio aspek */
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.gallery img {
+    width: auto; /* Mempertahankan Ukuran gambar */
+    height: auto; /* Mempertahankan rasio aspek */
+    border-radius: 5px; /* Sudut melengkung untuk gambar */
+}
+
+form {
+    margin-top: 20px; /* Margin atas untuk form */
+}
+
+form label {
+    display: block; /* Menampilkan label dalam baris baru */
+    margin: 10px 0 5px; /* Margin untuk label */
+}
+
+form input {
+    width: 100%; /* Lebar input 100% */
+    padding: 10px; /* Padding untuk input */
+    border: 1px solid #ccc; /* Border abu-abu */
+    border-radius: 5px; /* Sudut melengkung untuk input */
+}
+
+form button {
+    background-color: #4CAF50; /* Warna tombol */
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px; /* Sudut melengkung untuk tombol */
+    cursor: pointer; /* Kursor pointer saat hover */
+    margin-top: 10px; /* Margin atas untuk tombol */
+}
+
+form button:hover {
+    background-color: #45a049; /* Warna saat kursor di tombol */
+}
